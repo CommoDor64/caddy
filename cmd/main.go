@@ -49,7 +49,7 @@ func init() {
 }
 
 // Main implements the main function of the caddy command.
-// Call this if Caddy is to be the main() if your program.
+// Call this if Caddy is to be the main() in your program.
 func Main() {
 	caddy.TrapSignals()
 
